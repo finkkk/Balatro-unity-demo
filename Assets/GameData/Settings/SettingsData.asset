@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67b02235b0f1ed8458b731b6a2a35a51, type: 3}
+  m_Name: SettingsData
+  m_EditorClassIdentifier: 
+  cardsToSpawn: 7
+  slotPrefab: {fileID: 755729793094234174, guid: 6910000bac31bdc4b897c84de9554260, type: 3}
+  positionSpeed: 10
+  rotationSpeed: 5
+  rotationOffset: 40
+  selectOffset: 35
+  shadowOffset: {x: 10, y: -10}
+  positionCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.5
+      value: 0.5
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: -1
+      outSlope: -1
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  yOffsetMultiplier: 50
+  visualPrefab: {fileID: 5842062366288491299, guid: 095e58ee894e1bc48a0b8610556f5c1d, type: 3}
+  xSwingAmplitude: 16
+  ySwingAmplitude: 16
+  maxTiltAngle: 25
+  rotateLerpSpeed: 100
+  swingSpeed: 1
